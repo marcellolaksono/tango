@@ -8,4 +8,4 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^about', views.about, name='about'),
     url(r'^index', views.index, name='index'),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
