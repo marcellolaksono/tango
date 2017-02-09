@@ -1,7 +1,7 @@
-
 from django.shortcuts import render
-
 from django.http import HttpResponse
+
+# Import the Category model
 from rango.models import Category
 from rango.models import Page
 
@@ -18,9 +18,29 @@ def index(request):
 
     # Render the response and send it back!
     return render(request, 'rango/index.html', context_dict)
+
+
+# before chapter 6:
+# Construct a dictionary to pass to the template engine as its context.
+# Note the key boldmessage is the same as {{ boldmessage }} in the template!
+
+# context_dict = {'boldmessage': "Crunchy, creamy, cookie, candy, cupcake!"}
+
+# Return a rendered response to send to the client.
+# We make use of the shortcut function to make our lives easier.
+# Note that the first parameter is the template we wish to use.
+
+# return render(request, 'rango/index.html', context=context_dict)
+
+# previous version from chapter 3:
+# return HttpResponse("Rango says hey there partner! <br/> <a href='/rango/about/'>About</a>")
+
 def about(request):
     return render(request, 'rango/about.html')
 
+
+# previous version:
+# return HttpResponse("Rango says here is the about page. <br/> <a href='/rango/'>Index</a>")
 
 def show_category(request, category_name_slug):
     # Create a context dictionary which we can pass
@@ -46,6 +66,7 @@ def show_category(request, category_name_slug):
     except Category.DoesNotExist:
         # We get here if we didn't find the specified category.
         # Don't do anything -
+
         # the template will display the "no category" message for us.
         context_dict['category'] = None
         context_dict['pages'] = None
