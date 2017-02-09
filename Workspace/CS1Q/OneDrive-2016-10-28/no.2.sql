@@ -1,0 +1,1 @@
+SELECT Status FROM Staff WHERE FirstName = "Stephen" AND Surname = "Brewster"

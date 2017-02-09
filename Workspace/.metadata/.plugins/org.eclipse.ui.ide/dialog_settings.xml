@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="H:\Workspace\lab8\Laboratory8.zip"/>
+			<item value="H:\Workspace\Laboratory 6 files-20161101\Laboratory6.zip"/>
+			<item value="H:\Workspace\Laboratory 5 files-20161025\Laboratory5.zip"/>
+			<item value="C:\Users\2204494l\Downloads\AbstractClasses.zip"/>
+			<item value="H:\Workspace\Sub 4\Laboratory4.zip"/>
+			<item value="H:\Workspace\Laboratory 3 files-20161011\Laboratory3.zip"/>
+			<item value="H:\Workspace\Laboratory 2 files-20160930\Laboratory2.zip"/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="579" key="DIALOG_HEIGHT"/>
+		<item value="706" key="DIALOG_X_ORIGIN"/>
+		<item value="142" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

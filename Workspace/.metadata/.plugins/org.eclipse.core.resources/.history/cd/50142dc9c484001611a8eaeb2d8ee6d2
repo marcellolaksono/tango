@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+/**
+ * Starter code for JOOSE2 Laboratory 1, Submission 2.
+ * 
+ * @author Mary Ellen Foster <mefoster@gmail.com>
+ *
+ */
+public class ExamMarker2 {
+
+    public static void main(String[] args) {
+		Scanner standardInput = new Scanner(System.in);
+		
+		// TODO enter your code here for Submission 2
+		
+		standardInput.close();
+    }
+
+}
